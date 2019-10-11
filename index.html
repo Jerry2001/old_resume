@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans:300|Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://static.parastorage.com/services/third-party/fonts/Helvetica/fontFace.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"/> <!--icon--> 
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  	<style type="text/css">
+  		#profilePhoto{
+  			width: 100%;
+  			height: auto;
+  			max-width: 1200px;
+  			margin-bottom: 10px;
+  		}
+  		#sideBar{
+  			padding-top: 1em;
+  			padding-left: 3vw;
+  		}
+  		#mainContent{
+  			
+  		}
+  		#brand{
+  			font-family: 'Helvetica Neue Light', sans-serif;
+  			margin-bottom: 0.5em;
+  		}
+  		#introSection{
+  			height: 100vh;
+  			padding-top: 1em;
+  		}
+  		#projectSection{
+  			height: 100vh;
+  		}
+  		#aboutSection{
+  			height: 100vh;
+  		}
+  		#projectTitle{
+  			font-family: 'Helvetica Neue', sans-serif;
+  			margin-top: 4vh;
+  			margin-bottom: 1vh;
+  			font-weight: bold;
+  		}
+  		li{
+  			font-family: 'Helvetica Neue Thin', sans-serif;
+  			font-size: 25px;
+  		}
+  		p{
+  			font-family: 'Helvetica Neue Thin', sans-serif;
+  			font-size: 25px;
+  		}
+  		a{
+  			color: black;
+  		}
+  		a:hover{
+  			color: gray;
+  			text-decoration: none;
+  		}
+  	</style>
+</head>
+<body>
+	<div class="fluid-container">
+		<div class="row">
+			<div class="col-sm-3" style="max-width: 350px" id="sideBar">
+				<ul class="nav flex-column sticky-top">
+					<li class="nav-item"><a href="#introText"><h1 class="display-" id="brand">Jerry Ng.</h1></a></li>
+					<li class="nav-item">
+						<a href="#projectsText" class="nav-link" id="">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a href="#aboutText" class="nav-link">About</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="col-sm" id="mainContent">
+				<div class="container" id="introSection">
+					<div class="row">
+						<h2 class="display-4 mx-auto" style="font-family: Helvetica Neue Thin" id="introText">Hello there,</h2>
+					</div>
+					<div class="row">
+						<img id="profilePhoto" class="mx-auto" src="https://i.ibb.co/FmpndhN/IMG-4721-1.jpg">
+					</div>
+					<div class="row">
+						<h2 class="display-4 mx-auto text-center" style="font-family: Helvetica Neue Thin">Welcome to my world.</h2>
+					</div>
+					<div class="row" style="margin-top: 1vh">
+						<ul class="nav justify-content-center  mx-auto">
+							<li class="nav-item">
+								<a href="mailto:ngohongphuc2001@gmail.com"><h2 class="icon-envelope-letter"></h2></a>
+							</li>
+							<li class="nav-item" style="margin-right: 1vw; margin-left: 1vw">
+								<a href="https://github.com/Jerry2001"><h2 class="icon-social-github"></h2></a>
+							</li>
+							<li class="nav-item">
+								<a href=""><h2 class="icon-social-linkedin"></h2></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="fluid-container" id="projectSection">
+					<div class="row">
+						<h2 class="display-4 mx-auto" style="font-family: Helvetica Neue Thin; font-weight: bold" id="projectsText">
+							Projects
+						</h2>
+					</div>
+					<div class="row">
+						<hr style="width: 100%; color: black; background-color:gray; margin-right: 2vw"/>
+					</div>
+					<div class="row">
+						<div class="col-sm-7">
+							<h2 id="projectTitle" style="margin-top: 1vh"><a href="https://www.facebook.com/StudentsWhoCode/">Students Who Code</a></h2>
+							<p id="projectDescription" align="justify" >
+								The first programming project for high school students in Can Tho City. It provides
+								students with content and workshops about coding and IT in general. Introduced more
+								than 400 students to programming.
+							</p>
+							<h2 id="projectTitle"><a href="http://beepbeepbobo.000webhostapp.com/">Meloit</a></h2>
+							<p id="projectDescription" align="justify">
+								A wrapper website that crawls all the data from the Beloit university's announcing website, <a href="http://stuboard.beloit.edu/stumail/">Stuboard</a>, and display with more user-friendly UX/UI. Coded with Bootstrap and PHP.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="fluid-container" id="aboutSection">
+					<div class="row">
+						<h2 class="display-4 mx-auto" style="font-family: Helvetica Neue Thin; font-weight: bold;" id="aboutText">
+							About
+						</h2>
+					</div>
+					<div class="row">
+						<hr style="width: 100%; color: black; background-color:gray; margin-right: 2vw"/>
+					</div>
+					<div class="row">
+						<div class="col-sm-6">
+							<h2 id="projectTitle" style="margin-top: 1vh">Competitive, Web Programmer <br> A.I, Genetic Algorithm Learner</h2>
+							<p align="justify">
+								<i>"A Hello_World program was run on a Vietnamese baby boy in 2001. Since then, he always keeps the fire for programming burning hard in his heart. Recently, he has traveled to the U.S and studied Computer Science and Mathematics at Beloit College."</i>
+							</p>
+							<p align="justify">
+								I have been doing competitive programming for more than four years. You can find a record of my activity <a href="https://www.stopstalk.com/user/profile/Jerry2001" style="text-decoration: underline;">here</a>. Recently, I am trying new things like web programming, genetic programming, artificial intelligence...
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
